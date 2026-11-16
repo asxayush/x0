@@ -7,3 +7,5 @@ const getCurrentUser = async (req, res) => {
         return res.status(500).json({message: `get current user error ${error}`})
     }
 }
+
+export default getCurrentUser

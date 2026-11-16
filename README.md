@@ -17,7 +17,9 @@ Install dependencies in each app:
 ```bash
 cd client && npm install
 cd ../server/gateway && npm install
-cd ../services/auth && npm install
+cd ../server/services/auth && npm install
+cd ../server/services/chat && npm install
+cd ../server/services/agent && npm install
 ```
 
 Create environment files from the provided examples:
